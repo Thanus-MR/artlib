@@ -46,7 +46,7 @@ Generate arts with artlib like this
 
 ## examples
 
-See [test](artlib%20-%20c++/tests/) directory for sample
+See [test](artlib%20-%20c++/tests) directory for sample
 
 ## Documentation
 
