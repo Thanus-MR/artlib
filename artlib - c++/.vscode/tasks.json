@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++2a",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/Arts/artlib - c++/source/anixt/",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/Arts/artlib - c++/source/runeape/",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/Arts/artlib - c++/third_party/json/",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/Arts/artlib - c++/include/",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}

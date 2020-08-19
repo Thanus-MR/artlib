@@ -1,0 +1,101 @@
+{
+    "runeape_config" :
+    {
+        "HardBlank" : 0,
+        "Height"    : 26,
+        "Shrink"    : 1
+    },
+
+    "runeape_image"  :
+    {
+        "linux" :
+        [
+            "                       ",
+            "                       ",
+            "                       ",
+            "                       ",
+            "                       ",
+            "         _nnnn_        ",
+            "        dGGGGMMb       ",
+            "       @p~qp~~qMb      ",
+            "       M|@||@) M|      ",
+            "       @,----.JM|      ",
+            "      JS^\\__/  qKL     ",
+            "     dZP        qKRb   ",
+            "    dZP          qKKb  ",
+            "   fZP            SMMb ",
+            "   HZM            MMMM ",
+            "   FqM            MMMM ",
+            " __| \".        |\\dS\"qML",
+            " |    `.       | `' \\Zq",
+            "_)      \\.___.,|     .'",
+            "\\____   )MMMMMP|   .'  ",
+            "     `-'       `--'    ",
+            "                       ",
+            "                       ",
+            "                       ",
+            "                       ",
+            "                       "
+        ],
+
+        "mac"   :
+        [
+            "                                      ",
+            "                        .8            ",
+            "                      .888            ",
+            "                    .8888'            ",
+            "                   .8888'             ",
+            "                   888'               ",
+            "                   8'                 ",
+            "      .88888888888. .88888888888.     ",
+            "   .8888888888888888888888888888888.  ",
+            " .8888888888888888888888888888888888. ",
+            ".&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'   ",
+            "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'     ",
+            "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'      ",
+            "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:       ",
+            "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:       ",
+            "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:       ",
+            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.      ",
+            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.     ",
+            "`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.   ",
+            " `00000000000000000000000000000000000'",
+            "  `000000000000000000000000000000000' ",
+            "   `0000000000000000000000000000000'  ",
+            "     `###########################'    ",
+            "       `#######################'      ",
+            "        `###################'         ",
+            "           `###############'          "
+        ],
+
+        "win"   :
+        [
+            "                                   ",
+            "                                   ",
+            "                                   ",
+            "                                ..,",
+            "                    ....,,:;+ccllll",
+            "      ...,,+:;  cllllllllllllllllll",
+            ",cclllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "                                   ",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "llllllllllllll  lllllllllllllllllll",
+            "`'ccllllllllll  lllllllllllllllllll",
+            "       `'''*::  :ccllllllllllllllll",
+            "                      ````'''*::cll",
+            "                                 ``",
+            "                                   ",
+            "                                   ",
+            "                                   ",
+            "                                   "
+        ]
+    }
+}
