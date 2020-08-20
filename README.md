@@ -32,22 +32,20 @@ anixt currently able to read from json file type and that json font file looks l
 {
     "anixt_config"   :
     {
-        "Height"     : /*Height of font characters*/,
-        "HardBlank"  : /*HardBlank of font characters*/,
-        "Shrink"     : /*Shrink level of font, possible values are 0, 1, 2
+        "Height"     : "Height of font characters in uint",
+        "HardBlank"  : "HardBlank of font characters in uint",
+        "Shrink"     : "Shrink level of font, possible values are 0, 1, 2
                          If you use 0 then the font support untouched style
-                         onle, 2 is for both untouched and Kerning style,
-                         3 for all untouched, Kerning, smushed style*/
+                         only, 2 is for both untouched and Kerning style,
+                         3 for all untouched, Kerning, smushed style"
     },
 
     "anixt_letter"   :
     {
-        /*
         "keycharacter" :
         [
-            anixtletter
+            "anixtletter"
         ]
-        */
     }
 }
 ~~~~~
@@ -66,23 +64,21 @@ runeape currently able to read from json file type.
 {
     "runeape_config"   :
     {
-        "Height"     : /*Height of images in the gallery*/,
-        "HardBlank"  : /*HardBlank images in the gallery*/,
-        "Shrink"     : /*Shrink level of images in the gallery,
-                         possible values are 0, 1, 2. If you use
+        "Height"     : "Height of images in the gallery in uint",
+        "HardBlank"  : "HardBlank images in the gallery in uint",
+        "Shrink"     : "Shrink level of images in the gallery,
+                         possible values are 0, 1. If you use
                          0 then the gallery support untouched style
-                         onle, 2 is for both untouched and Kerning style,
-                         3 for all untouched, Kerning, smushed style*/
+                         only, 2 is for both untouched and Kerning style"
     },
 
     "runeape_image"   :
     {
-        /*
+
         "imagename" :
         [
-            image
+            "image"
         ]
-        */
     }
 }
 ~~~~~
