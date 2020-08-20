@@ -92,7 +92,7 @@ runeape currently able to read from json file type.
 
 ## Thanks
 
-- Thanking to [Thanus MR](https://github.com/Thanus-MR)
+- Thanking to [Thanus MR](https://github.com/Thanus-MR) for him support.
 
 -----
 
