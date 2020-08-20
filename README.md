@@ -40,9 +40,9 @@ anixt currently able to read from json file type and that json font file looks l
         "Height"     : "Height of font characters in uint",
         "HardBlank"  : "HardBlank of font characters in uint",
         "Shrink"     : "Shrink level of font, possible values are 0, 1, 2
-                         If you use 0 then the font support untouched style
-                         only, 2 is for both untouched and Kerning style,
-                         3 for all untouched, Kerning, smushed style"
+                        If you use 0 then the font support untouched style
+                        only, 2 is for both untouched and Kerning style,
+                        3 for all untouched, Kerning, smushed style"
     },
 
     "anixt_letter"   :
@@ -72,9 +72,9 @@ runeape currently able to read from json file type.
         "Height"     : "Height of images in the gallery in uint",
         "HardBlank"  : "HardBlank images in the gallery in uint",
         "Shrink"     : "Shrink level of images in the gallery,
-                         possible values are 0, 1. If you use
-                         0 then the gallery support untouched style
-                         only, 2 is for both untouched and Kerning style"
+                        possible values are 0, 1. If you use
+                        0 then the gallery support untouched style
+                        only, 2 is for both untouched and Kerning style"
     },
 
     "runeape_image"   :
