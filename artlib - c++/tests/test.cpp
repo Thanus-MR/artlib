@@ -2,7 +2,6 @@
 #include "iostream"
 
 #define FONTDIR     "path to font dir"
-
 #define GALLERYDIR  "path to gallery dir"
 
 using namespace sri::art;
