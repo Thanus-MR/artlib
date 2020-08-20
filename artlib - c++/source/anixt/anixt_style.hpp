@@ -340,7 +340,7 @@ namespace sri
              * @param as anixt_string 
              * @param ms minspace
              **/
-            void kerning_process( anixt_string &as, size_type ms )
+            void kerning_process( anixt_string &as, size_type minspace )
             {
                 if ( minspace == this->kerning_space )
                 {
