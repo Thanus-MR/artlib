@@ -19,10 +19,15 @@
  Generate art with artlib
 ~~~~~
 
-Genarate art known as ascii-art or art with artlib easily,artlib currently contains
-anixt and runeape. use anixt to generate text arts known as FIGLET and use runeape to
-generate image arts and artlib contains some functions to to use with them like append
-runeape to anixt letter and frame.
+Genarate art known as ascii-art or art with artlib easily.
+
+## anixt
+
+use anixt to generate text arts known as FIGLET
+
+## runeape
+
+use runeape to generate image arts
 
 ## Fonts
 
