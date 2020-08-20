@@ -1,13 +1,9 @@
 #include "artlib.hpp"
 #include "iostream"
 
-#define FONTDIR                                       \
-    "/media/srilakshmikanthanp/My Drive/Source Code/" \
-    "cross platform/Project/Arts/1 . anixt fonts - json/"
+#define FONTDIR     "path to font dir"
 
-#define GALLERYDIR                                    \
-    "/media/srilakshmikanthanp/My Drive/Source Code/" \
-    "cross platform/Project/Arts/2 . runeape galleries - json/"
+#define GALLERYDIR  "path to gallery dir"
 
 using namespace sri::art;
 
