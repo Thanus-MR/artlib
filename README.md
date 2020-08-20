@@ -5,7 +5,7 @@
  https://opensource.org/licenses/MIT
 -->
 
-# artlib
+# **artlib**
 
 ## Make arts with artlib
 
@@ -90,6 +90,10 @@ runeape currently able to read from json file type.
 ## Library Implemented Languages
 
 - [c++](artlib%20-%20c++)
+
+## Thanks
+
+- Thanking to [Thanus MR](https://github.com/Thanus-MR)
 
 -----
 
