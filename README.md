@@ -74,7 +74,6 @@ runeape currently able to read from json file type.
 
     "runeape_image"   :
     {
-
         "imagename" :
         [
             "image"
