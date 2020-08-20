@@ -5,14 +5,71 @@
  https://opensource.org/licenses/MIT
 -->
 
-# artlib - c++
+# **artlib - c++**
 
 ## Make arts with artlib
 
-Generate arts with artlib like this
+~~~~~artlib
+            _   _ _ _
+  __ _ _ __| |_| (_) |__  
+ / _` | '__| __| | | '_ \
+| (_| | |  | |_| | | |_) |
+ \__,_|_|   \__|_|_|_.__/
 
-~~~~~~~~~~~~~~~
+ Generate art with artlib
+~~~~~
 
+artlib implementation for c++.
+
+## anixt
+
+use anixt to generate text arts known as FIGLET anixt is a template class
+that accepts style type, currently available style types are untouched,
+Kerning, smushed. kerning is itself a template class that accepts kerning
+space. `Note : anixt class only supports charactes in font`
+
+### untouched style
+
+~~~~~artlib
+              _    _  _  _
+  __ _  _ __ | |_ | |(_)| |__  
+ / _` || '__|| __|| || || '_ \
+| (_| || |   | |_ | || || |_) |
+ \__,_||_|    \__||_||_||_.__/
+
+~~~~~
+
+### kerning as 0
+
+~~~~~artlib
+              _    _  _  _
+  __ _  _ __ | |_ | |(_)| |__  
+ / _` || '__|| __|| || || '_ \
+| (_| || |   | |_ | || || |_) |
+ \__,_||_|    \__||_||_||_.__/
+
+~~~~~
+
+## smushed
+
+~~~~~artlib
+            _   _ _ _
+  __ _ _ __| |_| (_) |__  
+ / _` | '__| __| | | '_ \
+| (_| | |  | |_| | | |_) |
+ \__,_|_|   \__|_|_|_.__/
+
+~~~~~
+
+## runeape
+
+use runeape to generate image arts, it is a template class that accepts
+style type, currently available type are untouched, kerning. kerning is itself
+template class that accepts kerning space.
+
+### anixt added to runeape and framed
+
+~~~~~artlib
 ========================================================================
 #                                                                      #
 #                                                                      #
@@ -41,12 +98,11 @@ Generate arts with artlib like this
 #                                                                      #
 #                                                                      #
 ========================================================================
+~~~~~
 
-~~~~~~~~~~~~~~~
+## Examples
 
-## examples
-
-See [test](tests/) directory for sample
+See [test](tests/) directory for example
 
 ## Documentation
 
