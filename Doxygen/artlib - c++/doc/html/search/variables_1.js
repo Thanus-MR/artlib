@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['shrink_183',['Shrink',['../structsri_1_1art_1_1anixt__config.html#a7b4342ff44a589cff3aa4b7f6846a498',1,'sri::art::anixt_config::Shrink()'],['../structsri_1_1art_1_1runeape__config.html#aae2a10f4ce526ecc609e375e1df70933',1,'sri::art::runeape_config::Shrink()']]],
+  ['shrink_5flevel_184',['shrink_level',['../classsri_1_1art_1_1basic__anixt__untouched__style.html#a811b48e89f987b99a0852956f1810b9d',1,'sri::art::basic_anixt_untouched_style::shrink_level()'],['../classsri_1_1art_1_1basic__anixt__kerning__style.html#ae3ee945534ce190177c9d1e14418e67a',1,'sri::art::basic_anixt_kerning_style::shrink_level()'],['../classsri_1_1art_1_1basic__anixt__smushed__style.html#adb4e24f46a79d6d5b148db12a706ccdd',1,'sri::art::basic_anixt_smushed_style::shrink_level()'],['../classsri_1_1art_1_1basic__runeape__untouched__style.html#a6b588d981e2c3a2dbdce2c21ae9a46da',1,'sri::art::basic_runeape_untouched_style::shrink_level()'],['../classsri_1_1art_1_1basic__runeape__kerning__style.html#a9f29268a6414c3e76c4193a8a45193c2',1,'sri::art::basic_runeape_kerning_style::shrink_level()']]]
+];
