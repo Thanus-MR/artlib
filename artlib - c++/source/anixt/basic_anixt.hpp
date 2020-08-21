@@ -204,9 +204,10 @@ namespace sri
              * @brief to set string of buffer
              * @param str string for buffer
              **/
-            void operator()( const string_type &str )
+            basic_anixt& operator()( const string_type &str )
             {
                 this->string_buff.str( str );
+                return *this;
             }
 
             /**

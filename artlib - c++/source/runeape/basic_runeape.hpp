@@ -135,9 +135,10 @@ namespace sri
              * @brief saves(append) imagename
              * @param imagname image name
              **/
-            void load( const string_type &imgname )
+            basic_runeape& load( const string_type &imgname )
             {
                 this->imgnames.push_back( imgname );
+                return *this;
             }
 
             /**
