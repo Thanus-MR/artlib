@@ -13,6 +13,7 @@
 #include "memory"
 #include "ostream"
 #include "string"
+#include "strvec.hpp"
 #include "type_traits"
 #include "vector"
 
@@ -49,12 +50,15 @@ namespace sri
             using string_type = std::basic_string<CharT, Traits, Alloc<CharT>>;
             template <typename T>
             using vector_type = std::vector<T, Alloc<T>>;
-            struct runeape_image : vector_type<string_type>
+
+            /**
+             * @struct runeape_image
+             * @brief  runeape image type
+             **/
+            struct runeape_image : strvec<string_type, alloc_type>
             {
-                using char_type   = CharT;
-                using string_type = std::basic_string<CharT, Traits, Alloc<CharT>>;
-                using vector_type<string_type>::vector_type;
-                using base = vector_type<string_type>;
+                using base = strvec<string_type, alloc_type>;
+                using base::base;
             };
 
             /**

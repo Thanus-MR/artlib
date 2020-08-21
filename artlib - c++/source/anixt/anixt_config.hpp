@@ -13,6 +13,7 @@
 #include "memory"
 #include "ostream"
 #include "string"
+#include "strvec.hpp"
 #include "type_traits"
 #include "vector"
 
@@ -51,18 +52,25 @@ namespace sri
             using string_type = std::basic_string<CharT, Traits, Alloc<CharT>>;
             template <typename T>
             using vector_type = std::vector<T, Alloc<T>>;
-            struct anixt_letter : std::vector<string_type, Alloc<string_type>>
+
+            /**
+             * @struct anixt_letter
+             * @brief  anixt letter type
+             **/
+            struct anixt_letter : strvec<string_type, alloc_type>
             {
-                using char_type   = CharT;
-                using string_type = std::basic_string<CharT, Traits, Alloc<CharT>>;
-                using vector_type<string_type>::vector_type;
-                using base = vector_type<string_type>;
+                using base = strvec<string_type, alloc_type>;
+                using base::base;
             };
-            struct anixt_string : std::vector<string_type, Alloc<string_type>>
+
+            /**
+             * @struct anixt_string
+             * @brief  anixt string type
+             **/
+            struct anixt_string : strvec<string_type, alloc_type>
             {
-                using char_type   = CharT;
-                using string_type = std::basic_string<CharT, Traits, Alloc<CharT>>;
-                using vector_type<string_type>::vector_type;
+                using base = strvec<string_type, alloc_type>;
+                using base::base;
             };
 
             /**
