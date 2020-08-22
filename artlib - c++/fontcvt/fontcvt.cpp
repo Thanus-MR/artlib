@@ -269,11 +269,15 @@ int main()
 
     std::cout << myanixt.get_anixt_string();
 
-    myanixt("Don't Forget To change");
+    myanixt("Don't Forget");
 
     std::cout << myanixt.get_anixt_string();
 
-    myanixt("Shrink value!!!");
+    myanixt("To Change");
+
+    std::cout << myanixt.get_anixt_string();
+
+    myanixt("Shrink value!");
 
     std::cout << myanixt.get_anixt_string();
 
