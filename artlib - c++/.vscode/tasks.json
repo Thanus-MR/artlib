@@ -7,11 +7,7 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-std=c++17",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/source/anixt/",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/source/runeape/",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/third_party/json/",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include/",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/source/strvec",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include/sri/",
                 "-g",
                 "${file}",
                 "-o",
