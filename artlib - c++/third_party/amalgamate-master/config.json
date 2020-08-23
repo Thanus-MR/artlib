@@ -1,7 +1,12 @@
 {
     "project" : "artlib - c++",
-    "target"  : "single_include/artlib.hpp",
+    "target"  : "/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/single_include/artlib.hpp",
     "sources" :[
-        
+        "/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include/artlib.hpp",
+        "/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/third_party/json/json.hpp"
+    ],
+    "include_paths" :[
+        "/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include",
+        "/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/third_party/json"
     ]
 }
