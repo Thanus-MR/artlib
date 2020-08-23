@@ -1,0 +1,1 @@
+"artlib - c++/third_party/amalgamate-master/amalgamate.py" -c "artlib - c++/third_party/amalgamate-master/config.json" -s "artlib - c++/include"
