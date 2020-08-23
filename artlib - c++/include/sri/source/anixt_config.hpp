@@ -10,10 +10,10 @@
 #ifndef ANIXTCONFIG_HEADER
 #define ANIXTCONFIG_HEADER
 
+#include "artlib_data.hpp"
 #include "memory"
 #include "ostream"
 #include "string"
-#include "strvec.hpp"
 #include "type_traits"
 #include "vector"
 
