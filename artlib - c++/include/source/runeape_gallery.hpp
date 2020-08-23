@@ -12,7 +12,7 @@
 
 #include "filesystem"
 #include "fstream"
-#include "json.hpp"
+#include "third_party/json/json.hpp"
 #include "runeape_config.hpp"
 
 /**
