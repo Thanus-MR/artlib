@@ -1,0 +1,7 @@
+{
+    "project" : "artlib - c++",
+    "target"  : "single_include/artlib.hpp",
+    "sources" :[
+        
+    ]
+}
