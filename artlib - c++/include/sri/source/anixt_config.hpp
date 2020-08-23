@@ -57,9 +57,9 @@ namespace sri
              * @struct anixt_letter
              * @brief  anixt letter type
              **/
-            struct anixt_letter : strvec<string_type, alloc_type>
+            struct anixt_letter : artlib_data<string_type, alloc_type>
             {
-                using base = strvec<string_type, alloc_type>;
+                using base = artlib_data<string_type, alloc_type>;
                 using base::base;
             };
 
@@ -67,9 +67,9 @@ namespace sri
              * @struct anixt_string
              * @brief  anixt string type
              **/
-            struct anixt_string : strvec<string_type, alloc_type>
+            struct anixt_string : artlib_data<string_type, alloc_type>
             {
-                using base = strvec<string_type, alloc_type>;
+                using base = artlib_data<string_type, alloc_type>;
                 using base::base;
             };
 

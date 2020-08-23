@@ -55,9 +55,9 @@ namespace sri
              * @struct runeape_image
              * @brief  runeape image type
              **/
-            struct runeape_image : strvec<string_type, alloc_type>
+            struct runeape_image : artlib_data<string_type, alloc_type>
             {
-                using base = strvec<string_type, alloc_type>;
+                using base = artlib_data<string_type, alloc_type>;
                 using base::base;
             };
 
