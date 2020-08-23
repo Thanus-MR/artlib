@@ -135,7 +135,7 @@ namespace sri
              * @brief saves(append) imagename
              * @param imagname image name
              **/
-            basic_runeape& load( const string_type &imgname )
+            basic_runeape &load( const string_type &imgname )
             {
                 this->imgnames.push_back( imgname );
                 return *this;
@@ -145,9 +145,20 @@ namespace sri
              * @brief return current image names
              * @return image names as vector_type<string_type>
              **/
-            vector_type<string_type> getlist()
+            vector_type<string_type> operator()() const
             {
                 return this->imgnames;
+            }
+
+            /**
+             * @brief clears existing images and add imgname
+             * @param imgname image name
+             **/
+            basic_runeape &operator()( const string_type &imgname )
+            {
+                this->imgnames.clear();
+                this->imgnames.push_back( imgname );
+                return *this;
             }
 
             /**
