@@ -162,6 +162,7 @@ namespace sri
             void clear() noexcept
             {
                 base::clear();
+                this->operator()("");
                 this->config.clear();
                 this->font.clear();
                 this->style.clear();
