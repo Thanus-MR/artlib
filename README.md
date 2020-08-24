@@ -57,9 +57,9 @@ anixt currently able to read from json file type and that json font file looks l
 
 ### Available Fonts
 
-- [straight](1.fonts%20-%20json/straight.json)
-- [slant](1.fonts%20-%20json/slant.json)
-- [bubble](1.fonts%20-%20json/bubble.json)
+- [straight](1.fonts-json/straight.json)
+- [slant](1.fonts-json/slant.json)
+- [bubble](1.fonts-json/bubble.json)
 
 ## Galleries
 
@@ -89,11 +89,11 @@ runeape currently able to read from json file type.
 
 ### Available Galleries
 
-- [logos](2.galleries%20-%20json/logos.json)
+- [logos](2.galleries-json/logos.json)
 
 ## Library Implemented Languages
 
-- [c++](artlib%20-%20c++)
+- [c++](artlib-cpp)
 
 ## Thanks
 
