@@ -109,7 +109,7 @@ See [test](tests/) directory for example
 
 ## Documentation
 
-[See Doxygen generated dodument](https://srilakshmikanthan-p.github.io/artlib/Doxygen/artlib%20-%20c%2B%2B/doc/html/index.html)
+[See Doxygen generated dodument](https://srilakshmikanthanp.github.io/artlib/Doxygen/artlib%20-%20c%2B%2B/doc/html/index.html)
 
 ## Font Converter
 
