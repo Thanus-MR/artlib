@@ -20,10 +20,10 @@
         typename Anixtconfig::traits_type
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -271,7 +271,7 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #undef BASIC_ANIXT_BASE_PARAM
 

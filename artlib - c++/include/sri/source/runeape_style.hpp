@@ -18,7 +18,7 @@
  * @namespace sri
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art

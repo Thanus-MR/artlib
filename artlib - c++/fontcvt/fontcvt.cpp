@@ -15,7 +15,7 @@
 #include "type_traits"
 #include "vector"
 
-namespace sri
+namespace srilakshmikanthanp
 {
     namespace art
     {
@@ -223,9 +223,9 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
-using namespace sri::art;
+using namespace srilakshmikanthanp::art;
 
 int main()
 {

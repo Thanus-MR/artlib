@@ -5,7 +5,7 @@
 #define FONTDIR     "path to font"
 #define GALLERYDIR  "path to gallery"
 
-using namespace sri::art;
+using namespace srilakshmikanthanp::art;
 
 int main()
 {

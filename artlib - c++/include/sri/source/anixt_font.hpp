@@ -17,10 +17,10 @@
 #include "map"
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
 
     /**
@@ -212,6 +212,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

@@ -18,10 +18,10 @@
 #include "vector"
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -155,6 +155,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

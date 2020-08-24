@@ -28,10 +28,10 @@
 
 // clang-format off
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -96,10 +96,10 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 // clang-format on
-namespace sri
+namespace srilakshmikanthanp
 {
     namespace art
     {
@@ -306,6 +306,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif
