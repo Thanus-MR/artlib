@@ -57,9 +57,9 @@ anixt currently able to read from json file type and that json font file looks l
 
 ### Available Fonts
 
-- [straight](1.fonts-json/straight.json)
-- [slant](1.fonts-json/slant.json)
-- [bubble](1.fonts-json/bubble.json)
+- [straight](1-fonts-json/straight.json)
+- [slant](1-fonts-json/slant.json)
+- [bubble](1-fonts-json/bubble.json)
 
 ## Galleries
 
