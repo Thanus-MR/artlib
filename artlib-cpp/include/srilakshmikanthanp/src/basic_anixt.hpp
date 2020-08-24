@@ -12,7 +12,6 @@
 
 #include "anixt_config.hpp"
 #include "filesystem"
-#include "json.hpp"
 #include "ostream"
 #include "sstream"
 
@@ -21,10 +20,10 @@
         typename Anixtconfig::traits_type
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -162,7 +161,8 @@ namespace sri
              **/
             void clear() noexcept
             {
-                this->operator()( "" );
+                base::clear();
+                this->operator()("");
                 this->config.clear();
                 this->font.clear();
                 this->style.clear();
@@ -271,7 +271,7 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #undef BASIC_ANIXT_BASE_PARAM
 

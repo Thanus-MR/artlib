@@ -5,10 +5,10 @@
 #include <vector>
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -17,13 +17,13 @@ namespace sri
     namespace art
     {
         /**
-         * @struct strvec
+         * @struct artlib_data
          * @brief  vector of string
          * @tparam String string_type
          * @tparam Alloc allocato type
          **/
         template <typename String, template <typename> typename Alloc>
-        struct strvec : private std::vector<String, Alloc<String>>
+        struct artlib_data : private std::vector<String, Alloc<String>>
         {
             using base        = std::vector<String, Alloc<String>>;
             using string_type = String;
@@ -44,7 +44,7 @@ namespace sri
             using typename base::value_type;
 
             using base::base;
-            virtual ~strvec() = default;
+            virtual ~artlib_data() = default;
 
             using base::operator=;
             using base::assign;
@@ -74,7 +74,7 @@ namespace sri
             using base::size;
             using base::swap;
 
-            friend void swap( strvec &lhs, strvec &rhs )
+            friend void swap( artlib_data &lhs, artlib_data &rhs )
             {
                 lhs.swap( rhs );
             }
@@ -82,6 +82,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

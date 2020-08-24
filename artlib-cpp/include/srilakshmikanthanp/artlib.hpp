@@ -11,14 +11,14 @@
 #define ARTLIB_HEADER
 
 #include "algorithm"
-#include "anixt_config.hpp"
-#include "anixt_font.hpp"
-#include "anixt_style.hpp"
-#include "basic_anixt.hpp"
-#include "basic_runeape.hpp"
-#include "runeape_config.hpp"
-#include "runeape_gallery.hpp"
-#include "runeape_style.hpp"
+#include "source/anixt_config.hpp"
+#include "source/anixt_font.hpp"
+#include "source/anixt_style.hpp"
+#include "source/basic_anixt.hpp"
+#include "source/basic_runeape.hpp"
+#include "source/runeape_config.hpp"
+#include "source/runeape_gallery.hpp"
+#include "source/runeape_style.hpp"
 
 /**
  * @mainpage artlib
@@ -28,10 +28,10 @@
 
 // clang-format off
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -96,10 +96,10 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 // clang-format on
-namespace sri
+namespace srilakshmikanthanp
 {
     namespace art
     {
@@ -306,6 +306,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

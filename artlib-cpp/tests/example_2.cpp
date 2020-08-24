@@ -4,7 +4,7 @@
 
 #define FONTDIR "path to font dir"
 
-using namespace sri::art;
+using namespace srilakshmikanthanp::art;
 
 int main()
 {

@@ -1,27 +1,27 @@
-/// @file runepe_config.hpp
+///@file anixt_config.hpp
 
 /**
  * Copyright (c) 2020 Sri Lakshmi Kanthan P
  * 
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
- **/
+ */
 
-#ifndef RUNEAPE_CONFIG
-#define RUNEAPE_CONFIG
+#ifndef ANIXTCONFIG_HEADER
+#define ANIXTCONFIG_HEADER
 
+#include "artlib_data.hpp"
 #include "memory"
 #include "ostream"
 #include "string"
-#include "strvec.hpp"
 #include "type_traits"
 #include "vector"
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
     /**
      * @namespace art
@@ -30,17 +30,19 @@ namespace sri
     namespace art
     {
         /**
-         * @class  runeape_config
-         * @brief  this class contains most of alias and runeape_config
-         * @tparam CharT, char_type
-         * @tparam SizeT, size_type
-         * @tparam Traits, traits_type, defaults to std::char_traits<CharT>
+         * @class  anixt_config
+         * @brief  This class contains most of alias and anixt configurations
+         *         used by the anixt.
+         * @tparam CharT  char_type
+         * @tparam SizeT  size_type, defaults to size_t
+         * @tparam Traits traits_type, defaults to std::char_traits<CharT>
+         * @tparam Alloc  alloc_type, defaults to std::allocator
          **/
         template <typename CharT,
                   typename SizeT                     = size_t,
                   typename Traits                    = std::char_traits<CharT>,
                   template <typename> typename Alloc = std::allocator>
-        struct runeape_config
+        struct anixt_config
         {
             using char_type   = CharT;
             using size_type   = SizeT;
@@ -52,12 +54,22 @@ namespace sri
             using vector_type = std::vector<T, Alloc<T>>;
 
             /**
-             * @struct runeape_image
-             * @brief  runeape image type
+             * @struct anixt_letter
+             * @brief  anixt letter type
              **/
-            struct runeape_image : strvec<string_type, alloc_type>
+            struct anixt_letter : artlib_data<string_type, alloc_type>
             {
-                using base = strvec<string_type, alloc_type>;
+                using base = artlib_data<string_type, alloc_type>;
+                using base::base;
+            };
+
+            /**
+             * @struct anixt_string
+             * @brief  anixt string type
+             **/
+            struct anixt_string : artlib_data<string_type, alloc_type>
+            {
+                using base = artlib_data<string_type, alloc_type>;
                 using base::base;
             };
 
@@ -67,15 +79,18 @@ namespace sri
              * level_0 can be use style untouched
              * 
              * level_1 can be use style untouched, fitted
+             * 
+             * level_2 can be use use style untouched, fitted, smushed
              **/
-            enum class shrink
+            enum class shrink : size_type
             {
                 level_0 = 0,
-                level_1 = 1
+                level_1 = 1,
+                level_2 = 2
             };
 
             /**
-             * @brief Holds Hardblank of gallery
+             * @brief Holds Hardblank of font
              **/
             char_type HardBlank;
             /**
@@ -88,13 +103,13 @@ namespace sri
              **/
             shrink Shrink;
 
-            runeape_config()                             = default;
-            runeape_config( const runeape_config & )     = default;
-            runeape_config( runeape_config && ) noexcept = default;
-            ~runeape_config()                            = default;
+            anixt_config()                           = default;
+            anixt_config( const anixt_config & )     = default;
+            anixt_config( anixt_config && ) noexcept = default;
+            ~anixt_config()                          = default;
 
-            runeape_config &operator=( const runeape_config & ) = default;
-            runeape_config &operator=( runeape_config && ) noexcept = default;
+            anixt_config &operator=( const anixt_config & ) = default;
+            anixt_config &operator=( anixt_config && ) noexcept = default;
 
             /**
              * @brief clears the configuraton,
@@ -102,7 +117,7 @@ namespace sri
              *        Height to 0,
              *        Shrink to level_0
              **/
-            void clear()
+            void clear() noexcept
             {
                 this->HardBlank = 0;
                 this->Height    = 0;
@@ -110,10 +125,10 @@ namespace sri
             }
 
             /**
-             * @brief swaps two objects
+             * @brief swaps two anixt_config
              * @param obj object to swap
              **/
-            void swap( runeape_config &obj )
+            void swap( anixt_config &obj ) noexcept
             {
                 using std::swap;
                 swap( this->HardBlank, obj.HardBlank );
@@ -122,17 +137,35 @@ namespace sri
             }
 
             /**
-             * @brief prints runeape_image to stream
+             * @brief prints anixt_letter to stream
              * @param stream outputstream
-             * @param ri  runeape_image object
+             * @param al     anixt_letter object
              * @return reference to stream
              **/
             friend std::basic_ostream<CharT, Traits> &
             operator<<( std::basic_ostream<CharT, Traits> &stream,
-                        const runeape_image &              ri )
+                        const anixt_letter &               al )
             {
                 stream << std::endl;
-                for ( const auto &str : ri )
+                for ( const auto &str : al )
+                {
+                    stream << str << std::endl;
+                }
+                return stream;
+            }
+
+            /**
+             * @brief prints anixt_string to stream
+             * @param stream outputstream
+             * @param as  anixt_string object
+             * @return reference to stream
+             **/
+            friend std::basic_ostream<CharT, Traits> &
+            operator<<( std::basic_ostream<CharT, Traits> &stream,
+                        const anixt_string &               as )
+            {
+                stream << std::endl;
+                for ( const auto &str : as )
                 {
                     stream << str << std::endl;
                 }
@@ -141,20 +174,20 @@ namespace sri
         };
 
         /**
-         * @brief swap two runeape_config
+         * @brief swap two anixt_config
          * @param lhs object one to swap
          * @param rhs object two to swap
          **/
         template <typename CharT, typename SizeT, typename Traits,
                   template <typename> typename Alloc>
-        void swap( runeape_config<CharT, SizeT, Traits, Alloc> &lhs,
-                   runeape_config<CharT, SizeT, Traits, Alloc> &rhs )
+        void swap( anixt_config<CharT, SizeT, Traits, Alloc> &lhs,
+                   anixt_config<CharT, SizeT, Traits, Alloc> &rhs ) noexcept
         {
             lhs.swap( rhs );
         }
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

@@ -1,11 +1,10 @@
 #include "artlib.hpp"
 #include "iostream"
-#include "string"
 
-#define FONTDIR     "path to font"
-#define GALLERYDIR  "path to gallery"
+#define FONTDIR     "path to font dir"
+#define GALLERYDIR  "path to gallery dir"
 
-using namespace sri::art;
+using namespace srilakshmikanthanp::art;
 
 int main()
 {
@@ -18,8 +17,5 @@ int main()
     myanixt << "LINUX";
     myruneape.load( "linux" );
 
-    for(const auto &i : frame( appendleft( myruneape, addtopline( myanixt.get_anixt_string(), 10 ) ), '=', '#' ))
-    {
-        std::cout << "\e[35;47m" << i << "\e[0m" << std::endl;
-    }
+    std::cout << frame( appendleft( myruneape, addtopline( myanixt.get_anixt_string(), 10 ) ), '=', '#' );
 }

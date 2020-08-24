@@ -13,14 +13,14 @@
 #include "anixt_config.hpp"
 #include "filesystem"
 #include "fstream"
-#include "json.hpp"
+#include "third_party/json/json.hpp"
 #include "map"
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
-namespace sri
+namespace srilakshmikanthanp
 {
 
     /**
@@ -212,6 +212,6 @@ namespace sri
 
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

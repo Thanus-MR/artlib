@@ -109,7 +109,12 @@ See [test](tests/) directory for example
 
 ## Documentation
 
-[See Doxygen generated dodument](https://srilakshmikanthan-p.github.io/artlib/Doxygen/artlib%20-%20c%2B%2B/doc/html/index.html)
+[See Doxygen generated dodument](https://srilakshmikanthanp.github.io/artlib/Doxygen/artlib%20-%20c%2B%2B/doc/html/index.html)
+
+## Font Converter
+
+A [Font Converter](fontcvt/fontcvt.cpp) Written in c++ will convert FIGLET font to anixt font,
+`Note : Shrink value is not detected by Font Converter, It will Set it to 0`
 
 ---
 Copyright (c) 2020 Sri Lakshmi Kanthan P
