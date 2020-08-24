@@ -15,7 +15,7 @@
 #include "runeape_config.hpp"
 
 /**
- * @namespace sri
+ * @namespace srilakshmikanthanp
  * @brief outer namespace
  **/
 namespace srilakshmikanthanp
@@ -458,6 +458,6 @@ namespace srilakshmikanthanp
         }
     } // namespace art
 
-} // namespace sri
+} // namespace srilakshmikanthanp
 
 #endif

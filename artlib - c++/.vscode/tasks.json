@@ -7,7 +7,7 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-std=c++17",
-                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include/sri/",
+                "-I/media/srilakshmikanthanp/My Drive/Source Code/cross platform/Project/artlib/artlib - c++/include/srilakshmikanthanp/",
                 "-g",
                 "${file}",
                 "-o",
